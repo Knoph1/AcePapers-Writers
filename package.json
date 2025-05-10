@@ -1,0 +1,31 @@
+{
+  "name": "acepapers-writers",
+  "version": "1.0.0",
+  "description": "**AcePapers Writers** is a full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to manage academic writing services, including essays, quizzes, research papers, term papers and online class assistance. The system allows seamless interaction between writers and clients with automated workflows, payment tracking and secure account management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knoph1/AcePapers-Writers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knoph1/AcePapers-Writers/issues"
+  },
+  "homepage": "https://github.com/Knoph1/AcePapers-Writers#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

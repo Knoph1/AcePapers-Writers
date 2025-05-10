@@ -100,8 +100,49 @@ npm start
 AcePapers-Writers/
 ├── client/           # React frontend
 ├── server/           # Node/Express backend
-├── .env.example      # Example environment file
+├── .env.acepaper-writer      # Example environment file
 ├── README.md
+```
+
+---
+
+## 🧪 API Testing with Postman
+To simplify development and testing, we’ve provided a complete Postman collection that includes all API endpoints for the AcePapers Writers backend.
+
+### 📥 How to Import the Postman Collection
+Open Postman – Download it from postman.com if you haven’t already.
+
+Navigate to: File → Import → Upload Files.
+
+Select the file located at:
+
+```bash
+/docs/AcePapers_Writers_API.postman_collection.json
+Click "Import" and the collection will appear in your sidebar.
+```
+
+### 📡 Using the Collection
+The collection is organized by resource (e.g., Auth, Users, Orders, Payments, etc.).
+  
+Each request includes method, route, headers and body format.
+
+For routes requiring authentication:
+
+> Set your Bearer Token in the Authorization tab or define it as an environment variable.
+
+### 🔐 Environment Setup (Optional)
+To manage variables (like BASE_URL, JWT_TOKEN, etc.) easily:
+
+- Go to the Environments tab in Postman.
+
+- Click "Add" and create a new environment.
+
+- Define variables such as:
+
+```
+BASE_URL = http://localhost:5000/api
+JWT_TOKEN = <your_token_here>
+Select this environment when sending requests.
 ```
 
 ---
@@ -116,7 +157,7 @@ AcePapers Writers streamlines the academic outsourcing model with transparency a
 
 **Knoph O. Ayieko**  
 > Web Developer | IT Specialist | certified Virtual Assistant
-
+> 
 ---
 
 ## 📃 License

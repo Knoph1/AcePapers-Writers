@@ -1,0 +1,135 @@
+# -----------------------------
+# Node.js & Dependency Managers
+# -----------------------------
+node_modules/
+bower_components/
+jspm_packages/
+.pnpm-debug.log*
+.yarn-integrity
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.npm/
+
+# -----------------------------
+# Logs & Reports
+# -----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.*.json
+
+# -----------------------------
+# Build & Output
+# -----------------------------
+dist/
+build/
+.cache/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+public/
+build/Release
+.vuepress/dist
+.temp
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+
+# -----------------------------
+# Coverage & Instrumentation
+# -----------------------------
+coverage/
+.nyc_output/
+*.lcov
+lib-cov
+.grunt
+
+# -----------------------------
+# Environment & Secrets
+# -----------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/acepapers
+JWT_SECRET=your-secret-key
+REACT_APP_API_URL=http://localhost:5000/api
+
+
+# Optional extras
+# ------------------------------
+# .env Content
+
+# === Backend environment variables ===
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/acepapers
+JWT_SECRET=superSecretKey123!
+
+# === Frontend environment variables ===
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_ENV=development
+
+# === Optional extras ===
+SMTP_HOST=smtp.mailtrap.io
+SMTP_PORT=2525
+SMTP_USER=your_smtp_user
+SMTP_PASS=your_smtp_pass
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+# -------------------------------
+
+
+
+# -----------------------------
+# IDEs & Editor Configs
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode-test/
+
+# -----------------------------
+# System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.tern-port
+
+# -----------------------------
+# Tooling & Caches
+# -----------------------------
+.lock-wscript
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+
+# -----------------------------
+# Static Site Generators & Frameworks
+# -----------------------------
+web_modules/         # Snowpack
+**/.vitepress/dist   # VitePress build
+**/.vitepress/cache  # VitePress cache

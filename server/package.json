@@ -1,0 +1,38 @@
+// Created by Knoph O. Ayieko
+// This file is part of AcePapers Writers MERN Stack Application.
+// AcePapers Writers is a full-stack application for academic writing platform.
+// It is licensed under the MIT License.
+{
+  "name": "acepapers-writers",
+  "version": "1.0.0",
+  "description": "Full-stack app for academic writing platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "author": "Knoph Oluoch Ayieko",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.3",
+    "lint-staged": "^15.2.2",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
